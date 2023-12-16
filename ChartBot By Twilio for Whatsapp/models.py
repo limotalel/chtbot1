@@ -3,7 +3,7 @@ from  sqlalchemy.engine import URL
 from sqlalchemy.orm import declarative_base, sessionmaker
 import decouple
 
-url = URL.create(drivername="postgresql", username="postgres",password="1234", host="localhost", port=5432)
+url = URL.create(drivername="", username="",password="", host="localhost", port=5432)
 
 engine = create_engine(url)
 SessionLocal = sessionmaker(bind=engine)
