@@ -11,7 +11,7 @@ from utils import send_message, logger
 
 app = FastAPI()
 # Set up the OpenAI API client
-openai.api_key = "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"
+openai.api_key = ""
 
 # Dependency
 def get_db():
